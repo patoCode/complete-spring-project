@@ -1,7 +1,7 @@
 FROM openjdk:8-jre-alpine
 
-EXPOSE 8070
+EXPOSE 8080
 
-COPY target/project.jar /app/
+COPY target/completeSpringProject.jar /app/
 
-CMD java -jar /app/project.jar 
+CMD java -jar /app/completeSpringProject.jar 
